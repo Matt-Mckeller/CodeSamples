@@ -1,0 +1,6 @@
+{
+  "name": "expanse.ui.points",
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  }
+}

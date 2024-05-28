@@ -1,0 +1,82 @@
+# Writes
+type Mutation {
+    signIn(input: SignInInput!): SignInResponse
+    signUp(input: SignUpInput!): SignUpResponse
+    forgotPassword(input: ForgotPasswordInput!): ForgotPasswordResponse
+    resetPassword(input: ResetPasswordInput!): ResetPasswordResponse
+    verifyResetPasswordPasscode(input: VerifyResetPasswordPasscodeInput!): VerifyResetPasswordPasscodeResponse
+    logout(input: LogoutInput!): LogoutResponse
+}
+
+# Reads
+type Query {
+    currentUser: User
+}
+
+# Types
+input SignUpInput {
+    fullName: String!
+    email: String!
+    password: String!
+    agreeToPrivacyPolicy: Boolean!
+    agreeToTermsOfService: Boolean!
+}
+
+type SignUpResponse {
+    success: Boolean!
+    jwt: String!
+}
+
+input SignInInput {
+    email: String!
+    password: String!
+}
+
+type SignInResponse {
+    success: Boolean!
+    jwt: String
+}
+
+input ForgotPasswordInput {
+    email: String!
+}
+
+type ForgotPasswordResponse {
+    success: Boolean!
+}
+
+input VerifyResetPasswordPasscodeInput {
+    email: String!
+    resetPasscode: String!
+}
+
+type VerifyResetPasswordPasscodeResponse {
+    success: Boolean!
+}
+
+input ResetPasswordInput {
+    email: String!
+    resetPasscode: String!
+    password: String!
+}
+
+type ResetPasswordResponse {
+    success: Boolean!
+    jwt: String!
+}
+
+input LogoutInput {
+    jwt: String!
+}
+
+type LogoutResponse {
+    success: Boolean!
+}
+
+type User {
+    id: String!
+    firstName: String!
+    lastName: String!
+    email: String!
+    phone: String!
+}
