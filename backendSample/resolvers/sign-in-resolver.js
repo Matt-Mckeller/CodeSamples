@@ -10,7 +10,6 @@ export const signInResolver = async (parent, args, context, info) => {
   const { authDbConnection } = context
   const clientIp = context?.req?.ip
   const clientUserAgent = context?.req?.get("User-Agent")
-  console.log('Sign in resolver', {email, clientIp, clientUserAgent})
 
   const validationResults = await ExpanseValidator(
     {
@@ -37,7 +36,6 @@ export const signInResolver = async (parent, args, context, info) => {
     if(e instanceof IncorrectLoginCredentials || e instanceof AccountLockoutError) {
       throw e
     } else {
-      console.log('Unexpected error: ', e.message)
       throw new UnexpectedError()
     }
   }
@@ -49,7 +47,6 @@ export const signInResolver = async (parent, args, context, info) => {
       session: _Session.toJson(),
     })
   } catch (e) {
-    console.error("Encountered an error creating the session.", e.message)
     throw new GraphQLError("There was an error creating the session.", {
       extensions: {
         code: ApolloServerErrorCode.INTERNAL_SERVER_ERROR,
@@ -57,7 +54,6 @@ export const signInResolver = async (parent, args, context, info) => {
     })
   }
 
-  authDbConnection.end()
   return {
     success: true,
     jwt: _Session.jwt,

@@ -8,7 +8,6 @@ import { Session } from '../../models/session/session.js'
 import {AuthLibrary} from '../../libraries/authentication.library.js'
 
 export const signUpResolver = async (parent, args, context, info) => {
-  console.log('----SIGN UP RESOLVER BEGIN----')
   const {
     fullName,
     email,
@@ -19,7 +18,6 @@ export const signUpResolver = async (parent, args, context, info) => {
   const {authDbConnection} = context
   const clientIp = context?.req?.ip
   const clientUserAgent = context?.req?.get('User-Agent')
-  console.log('Sign Up resolver', {fullName, email, clientIp, clientUserAgent})
   const validationResults = await ExpanseValidator({
     fullName,
     email,
@@ -59,26 +57,19 @@ export const signUpResolver = async (parent, args, context, info) => {
 
   } catch (e) {
     if(e instanceof AccountAlreadyExists) {
-      throw new GraphQLError(e.message, {
-        extensions: {
-          code: ApolloServerErrorCode.BAD_REQUEST,
-        },
-      })
+      throw e
     } else {
-      console.log('Unknown error', e.message)
-      throw new UnexpectedError()
+      throw new UnexpectedError(null, e)
     }
   }
   try {
     // todo remove need to await send, server crashes if a failure occurs
     await AuthLibrary.sendSignUpSuccessEmail(_User)
   } catch (e) {
-    console.error('An error  has occurred sending the sign up success email.')
     throw new EmailSendingError('An error has occurred sending the sign up success email.')
   }
 
 
-  authDbConnection.end()
   return {
     success: true,
     jwt: _Session.jwt

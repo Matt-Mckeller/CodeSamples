@@ -1,13 +1,12 @@
 import { ResetPasswordPasscodeExpired, ExpanseError, UnknownError } from 'expanse-common/server-errors'
-import { getAuthMailer } from '../email/get-auth-mailer.js'
-import {getSignUpSuccessEmail} from '../email/templates/sign-up-success.js'
-import {getPasswordResetEmail} from '../email/templates/password-reset.js'
-import {getPasswordUpdateSuccessEmail} from '../email/templates/password-update-success.js'
+import { getAuthMailer } from '../config/mail.config.js'
+import {getSignUpSuccessEmail} from '../../email/templates/sign-up-success.js'
+import {getPasswordResetEmail} from '../../email/templates/password-reset.js'
+import {getPasswordUpdateSuccessEmail} from '../../email/templates/password-update-success.js'
 
 export class AuthLibrary {
 
   static async sendPasswordUpdatedEmail(_User) {
-    console.log('Password updated email not implemented')
     const mailer = getAuthMailer()
     const email = getPasswordUpdateSuccessEmail({
       fullName: _User.fullName,
@@ -34,7 +33,6 @@ export class AuthLibrary {
   }
 
   static async sendResetPasscodeEmail(_User) {
-    console.log("Should send password updated email.")
     const mailer = getAuthMailer()
     const email = getPasswordResetEmail({
       fullName: _User.fullName,
@@ -51,7 +49,7 @@ export class AuthLibrary {
         subject: 'Your password reset code',
         html: email
       })
-      console.log("Password updated successfully")
+      console.log("Password updated email sent successfully")
       return true
     }
 
@@ -68,7 +66,6 @@ export class AuthLibrary {
     })
 
     if(process.env.SEND_MAIL === "true" ) {
-      console.log('Sending now')
       await mailer.sendMail({
         from: process.env.AUTH_EMAIL_FROM,
         bcc: process.env.AUTH_TEST_SENDING_EMAIL_ADDRESS,
@@ -76,7 +73,7 @@ export class AuthLibrary {
         subject: _User.fullName + ', your sign up was successful!',
         html: email
       })
-      console.log('Sent sign up success email.')
+      console.log('Sign up success email sent successfully.')
       return true
     } 
     return true
@@ -108,7 +105,6 @@ export class AuthLibrary {
     } catch (e) {
       if(e instanceof ExpanseError) {
         if (e instanceof ResetPasswordPasscodeExpired) {
-          // todo: Await may not be needed except for the db connection closure for the current implementation
           await AuthLibrary.sendVerificationCode(_User)
         } 
         throw e
