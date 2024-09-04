@@ -42,7 +42,7 @@ export function useForgotPassword(): ForgotPasswordHandlers {
     onErrorResponse(
       getDisplayErrorMessage(
         response,
-        ValidationContent["en"].featureErrors.forgotPassword,
+        ValidationContent["en"].responseErrors.forgotPassword,
       ),
     )
     return false
@@ -97,7 +97,7 @@ export function useForgotPassword(): ForgotPasswordHandlers {
     onErrorResponse(
       getDisplayErrorMessage(
         response,
-        ValidationContent["en"].featureErrors.resetPassword,
+        ValidationContent["en"].responseErrors.resetPassword,
       ),
     )
     return false

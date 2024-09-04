@@ -46,7 +46,7 @@ export function useSignUp(): SignUpHandlers {
     onErrorResponse(
       getDisplayErrorMessage(
         response,
-        ValidationContent["en"].featureErrors.signUp,
+        ValidationContent["en"].responseErrors.signUp,
       ),
     )
     return false

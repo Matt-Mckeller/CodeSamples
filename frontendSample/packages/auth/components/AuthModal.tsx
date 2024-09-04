@@ -14,28 +14,7 @@ import { AuthDisplayContext } from ".."
 import { AnalyticsContext } from "../../application"
 import { REGISTER_ANALYTICS_EVENT } from "../../application/gql"
 import { useMutation } from "@apollo/client"
-
-function CloseButton({ handleClose }: { handleClose: () => void }) {
-  return (
-    <Box
-      onClick={handleClose}
-      sx={{
-        height: "36px",
-        width: "36px",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        color: (theme) => theme.palette.grey[500],
-        cursor: "pointer",
-        borderRadius: "50px",
-        "&:hover": (theme) => ({ background: theme.palette.grey[200] }),
-        transition: "fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
-      }}
-    >
-      <CloseIcon aria-label="close" />
-    </Box>
-  )
-}
+import { CloseModalButton } from "expanse.ui/theme"
 
 export function AuthModal() {
   const {
@@ -87,7 +66,7 @@ export function AuthModal() {
               right: -7,
             }}
           >
-            <CloseButton handleClose={handleClose} />
+            <CloseModalButton handleClose={handleClose} />
           </Box>
         </Box>
       </DialogTitle>
@@ -110,8 +89,7 @@ export function AuthModal() {
           )}
           {currentScreen === AuthFormScreen.ResetPassword && <ResetPassword />}
           {(currentScreen === AuthFormScreen.SignUpSuccess ||
-            currentScreen === AuthFormScreen.ResetPasswordSuccess ||
-            currentScreen === AuthFormScreen.SignInSuccess) && (
+            currentScreen === AuthFormScreen.ResetPasswordSuccess) && (
             <AuthSuccessScreen />
           )}
         </Box>

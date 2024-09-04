@@ -26,7 +26,7 @@ export function Auth() {
       width="100%"
       height="100%"
     >
-      <Box id="page-title" textAlign="center" mt={6} mb={6}>
+      <Box id="page-header" textAlign="center" mb={6}>
         <Typography variant="h2" component="h2">
           {modalTitle()}
         </Typography>

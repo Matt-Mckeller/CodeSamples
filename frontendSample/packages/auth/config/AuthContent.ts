@@ -1,3 +1,4 @@
+// Todo move to dictionary
 export const AuthContent = {
   successMessages: {
     signIn: (user: any) =>

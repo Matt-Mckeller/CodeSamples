@@ -103,9 +103,16 @@ function useAuthScreensContext(authNavRoute): AuthScreenContextType {
       handleSetCurrentScreen(screen)
     }
     if (userIsOnDesktop === false) {
+      registerAnalyticsEvent({
+        variables: {
+          event: "open-auth-page",
+          ...analyticsEventContext,
+          params: null,
+        },
+      })
       router.push("/authentication")
     } else {
-      setAuthModalIsOpen(true)
+      openAuthModal()
     }
   }
 

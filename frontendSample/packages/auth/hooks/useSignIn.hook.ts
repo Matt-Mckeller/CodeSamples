@@ -50,13 +50,13 @@ export function useSignIn(): SignInHandlers {
     console.log({
       errorMessageRetrieved: getDisplayErrorMessage(
         response,
-        ValidationContent["en"].featureErrors.signIn,
+        ValidationContent["en"].responseErrors.signIn,
       ),
     })
     onErrorResponse(
       getDisplayErrorMessage(
         response,
-        ValidationContent["en"].featureErrors.signIn,
+        ValidationContent["en"].responseErrors.signIn,
       ),
     )
     return false
