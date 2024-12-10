@@ -1,0 +1,94 @@
+{
+  "image_id": "unique_image_id",
+  "file_name": "image.jpg",
+  "file_format": "JPEG",
+  "width": 1080,
+  "height": 1350,
+  "size_bytes": 123456,
+  "creation_time": "2024-07-27T12:00:00Z",
+  "modification_time": "2024-07-27T12:00:00Z",
+  "visual_analysis_results": {
+    "object_detection": [
+      {
+        "object_id": "1",
+        "class_name": "person",
+        "confidence_score": 0.95,
+        "bounding_box": {
+          "x": 30,
+          "y": 200,
+          "width": 400,
+          "height": 700
+        }
+      },
+      {
+        "object_id": "2",
+        "class_name": "dog",
+        "confidence_score": 0.98,
+        "bounding_box": {
+          "x": 350,
+          "y": 350,
+          "width": 700,
+          "height": 1000
+        }
+      }
+    ],
+    "scene_classification": [
+      {
+        "category_name": "outdoor",
+        "confidence_score": 0.85
+      }
+    ],
+    "image_captioning": [
+      {
+        "caption_text": "A woman kisses her Bernese Mountain Dog on a patio.",
+        "confidence_score": 0.92
+      }
+    ],
+    "color_analysis": [
+      {
+        "color_code": "#008000",
+        "percentage": 0.4
+      },
+      {
+        "color_code": "#A0522D",
+        "percentage": 0.3
+      },
+      {
+        "color_code": "#FFFFFF",
+        "percentage": 0.2
+      }
+    ],
+    "text_detection_and_ocr": [],
+    "image_description": "Woman kissing her Bernese Mountain Dog on a patio."
+  },
+  "semantic_segmentation": {
+
+  },
+  "face_detection_and_analysis": [
+    {
+      "face_id": "1",
+      "bounding_box": {
+        "x": 350,
+        "y": 300,
+        "width": 150,
+        "height": 200
+      },
+      "landmarks": [],
+      "attributes": []
+    }
+  ],
+  "image_quality_assessment": {
+    "quality_score": 0.9,
+    "blur_score": 0.1,
+    "noise_score": 0.05,
+    "exposure_score": 0.95,
+    "contrast_score": 0.9
+  },
+  "safe_search_annotations": {
+    "adult": 0,
+    "racy": 0,
+    "spoof": 0,
+    "medical": 0,
+    "violence": 0
+  }
+}

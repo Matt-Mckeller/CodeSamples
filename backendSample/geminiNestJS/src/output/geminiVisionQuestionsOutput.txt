@@ -1,0 +1,13 @@
+There is one dog in this image.
+
+* **Bounding box for the dog:**  397 67 1000 998
+* **Bounding box for the dog's face:** 400 492 585 724
+* **Type of dog:** It appears to be a Bernese Mountain Dog.
+* **What the dog is doing:** The dog is sitting on a dog bed and being kissed by a woman.
+
+
+There is one person in this image.
+
+* **Bounding box for the person:** 224 25 935 928
+* **Bounding box for the person's face:**  284 362 485 557
+* **Attributes of the person:** The person is a woman with long brown hair. She appears to be young and is wearing a white t-shirt and dark pants or skirt. She is also wearing a ring.  She is kissing her dog.
