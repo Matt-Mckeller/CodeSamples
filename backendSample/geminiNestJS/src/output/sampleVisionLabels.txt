@@ -1,0 +1,123 @@
+[
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/0bt9lr",
+    "locale": "",
+    "description": "Dog",
+    "score": 0.9955494403839111,
+    "confidence": 0,
+    "topicality": 0.7841017842292786,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/01lrl",
+    "locale": "",
+    "description": "Carnivores",
+    "score": 0.978190004825592,
+    "confidence": 0,
+    "topicality": 0.006983460858464241,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/019nj4",
+    "locale": "",
+    "description": "Smile",
+    "score": 0.8974571228027344,
+    "confidence": 0,
+    "topicality": 0.013973897323012352,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/0cnmr",
+    "locale": "",
+    "description": "Fur",
+    "score": 0.831466555595398,
+    "confidence": 0,
+    "topicality": 0.004591007716953754,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/016pp7",
+    "locale": "",
+    "description": "Happiness",
+    "score": 0.8279890418052673,
+    "confidence": 0,
+    "topicality": 0.01491296011954546,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/01z5f",
+    "locale": "",
+    "description": "Canidae",
+    "score": 0.7926565408706665,
+    "confidence": 0,
+    "topicality": 0.020806051790714264,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/05mqq3",
+    "locale": "",
+    "description": "Snout",
+    "score": 0.7136666774749756,
+    "confidence": 0,
+    "topicality": 0.004798999521881342,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/01p5rd",
+    "locale": "",
+    "description": "Bernese Mountain Dog",
+    "score": 0.6451864838600159,
+    "confidence": 0,
+    "topicality": 0.9368671178817749,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/0h8ks17",
+    "locale": "",
+    "description": "Pet Supply",
+    "score": 0.6107733845710754,
+    "confidence": 0,
+    "topicality": 0.00028931445558555424,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/02kc3x",
+    "locale": "",
+    "description": "Herding dog",
+    "score": 0.5675252676010132,
+    "confidence": 0,
+    "topicality": 0.024300459772348404,
+    "boundingPoly": null
+  },
+  {
+    "locations": [],
+    "properties": [],
+    "mid": "/m/048knlz",
+    "locale": "",
+    "description": "Love",
+    "score": 0.5041090846061707,
+    "confidence": 0,
+    "topicality": 0.0035717086866497993,
+    "boundingPoly": null
+  }
+]

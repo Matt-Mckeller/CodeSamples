@@ -2,8 +2,9 @@ import { Controller, Get, Header } from '@nestjs/common';
 import { GeminiService } from './gemini.service';
 import * as fs from 'fs';
 import { GenerateContentResult } from '@google/generative-ai';
+import { GOOGLE_SAMPLE_IMAGES } from './gemini.config';
 
-// const outputDir = './apps/gemini/src/output';
+// const outputDir = './apps/google/src/output';
 const outputDir = './';
 @Controller()
 export class GeminiController {
@@ -31,8 +32,7 @@ export class GeminiController {
   @Get('/sampleImageQuestions')
   @Header('Content-Type', 'application/json')
   async sampleImageQuestions(): Promise<string> {
-    const imageUrl =
-      'https://storage.googleapis.com/expanse-public-assets/aiSamples/girl-and-dog-ai-analysis-sample.jpg';
+    const imageUrl = GOOGLE_SAMPLE_IMAGES.GIRL_AND_DOG;
     const result = await this.geminiService.sampleImageQuestions(
       imageUrl,
       'image/jpeg',
@@ -48,14 +48,13 @@ export class GeminiController {
     } catch (err) {
       console.error('Error writing to file:', err);
     }
-    return textBodyResponse.replace('```json', '').replace('```', '');
+    return textBodyResponse;
   }
 
   @Get('/sampleImageAnalysis')
   @Header('Content-Type', 'application/json')
   async sampleImageAnalysis(): Promise<string> {
-    const imageUrl =
-      'https://storage.googleapis.com/expanse-public-assets/aiSamples/girl-and-dog-ai-analysis-sample.jpg';
+    const imageUrl = GOOGLE_SAMPLE_IMAGES.GIRL_AND_DOG;
     const result = await this.geminiService.sampleImageAnalysis(
       imageUrl,
       'image/jpeg',

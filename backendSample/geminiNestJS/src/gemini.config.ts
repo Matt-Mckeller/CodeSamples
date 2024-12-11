@@ -30,3 +30,8 @@ export const SAFETY_SETTINGS: SafetySetting[] = [
     threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
   },
 ];
+
+export const GOOGLE_SAMPLE_IMAGES = {
+  GIRL_AND_DOG:
+    'https://storage.googleapis.com/expanse-public-assets/aiSamples/girl-and-dog-ai-analysis-sample.jpg',
+};

@@ -1,0 +1,997 @@
+{
+  "faceAnnotations": [
+    {
+      "landmarks": [
+        {
+          "type": "LEFT_EYE",
+          "position": {
+            "x": 498.97186279296875,
+            "y": 540.4166259765625,
+            "z": 0.0009713172912597656
+          }
+        },
+        {
+          "type": "RIGHT_EYE",
+          "position": {
+            "x": 580.5672607421875,
+            "y": 514.0397338867188,
+            "z": 65.82970428466797
+          }
+        },
+        {
+          "type": "LEFT_OF_LEFT_EYEBROW",
+          "position": {
+            "x": 459.2188415527344,
+            "y": 520.0140380859375,
+            "z": -19.24537467956543
+          }
+        },
+        {
+          "type": "RIGHT_OF_LEFT_EYEBROW",
+          "position": {
+            "x": 529.435791015625,
+            "y": 504.8539123535156,
+            "z": -2.045440673828125
+          }
+        },
+        {
+          "type": "LEFT_OF_RIGHT_EYEBROW",
+          "position": {
+            "x": 567.8793334960938,
+            "y": 488.8555908203125,
+            "z": 29.250701904296875
+          }
+        },
+        {
+          "type": "RIGHT_OF_RIGHT_EYEBROW",
+          "position": {
+            "x": 599.111328125,
+            "y": 480.20556640625,
+            "z": 91.71033477783203
+          }
+        },
+        {
+          "type": "MIDPOINT_BETWEEN_EYES",
+          "position": {
+            "x": 553.9353637695312,
+            "y": 517.0977172851562,
+            "z": 16.093748092651367
+          }
+        },
+        {
+          "type": "NOSE_TIP",
+          "position": {
+            "x": 582.8446044921875,
+            "y": 574.9822998046875,
+            "z": 2.3577494621276855
+          }
+        },
+        {
+          "type": "UPPER_LIP",
+          "position": {
+            "x": 576.6940307617188,
+            "y": 621.56201171875,
+            "z": 26.779747009277344
+          }
+        },
+        {
+          "type": "LOWER_LIP",
+          "position": {
+            "x": 562.0518798828125,
+            "y": 653.7623901367188,
+            "z": 35.729000091552734
+          }
+        },
+        {
+          "type": "MOUTH_LEFT",
+          "position": {
+            "x": 532.3953857421875,
+            "y": 642.2675170898438,
+            "z": 25.261898040771484
+          }
+        },
+        {
+          "type": "MOUTH_RIGHT",
+          "position": {
+            "x": 580.9219360351562,
+            "y": 622.5848999023438,
+            "z": 75.27508544921875
+          }
+        },
+        {
+          "type": "MOUTH_CENTER",
+          "position": {
+            "x": 566.3244018554688,
+            "y": 638.585693359375,
+            "z": 34.2601432800293
+          }
+        },
+        {
+          "type": "NOSE_BOTTOM_RIGHT",
+          "position": {
+            "x": 589.4954833984375,
+            "y": 589.0339965820312,
+            "z": 52.318233489990234
+          }
+        },
+        {
+          "type": "NOSE_BOTTOM_LEFT",
+          "position": {
+            "x": 544.419189453125,
+            "y": 595.0221557617188,
+            "z": 16.60443878173828
+          }
+        },
+        {
+          "type": "NOSE_BOTTOM_CENTER",
+          "position": {
+            "x": 575.6121215820312,
+            "y": 599.4290161132812,
+            "z": 23.49848175048828
+          }
+        },
+        {
+          "type": "LEFT_EYE_TOP_BOUNDARY",
+          "position": {
+            "x": 498.9884338378906,
+            "y": 530.6707763671875,
+            "z": -6.720991134643555
+          }
+        },
+        {
+          "type": "LEFT_EYE_RIGHT_CORNER",
+          "position": {
+            "x": 518.0091552734375,
+            "y": 534.9077758789062,
+            "z": 14.126110076904297
+          }
+        },
+        {
+          "type": "LEFT_EYE_BOTTOM_BOUNDARY",
+          "position": {
+            "x": 500.2322082519531,
+            "y": 548.5386352539062,
+            "z": -0.20709586143493652
+          }
+        },
+        {
+          "type": "LEFT_EYE_LEFT_CORNER",
+          "position": {
+            "x": 474.0282287597656,
+            "y": 545.1204833984375,
+            "z": -6.942025184631348
+          }
+        },
+        {
+          "type": "RIGHT_EYE_TOP_BOUNDARY",
+          "position": {
+            "x": 584.7460327148438,
+            "y": 504.029296875,
+            "z": 60.7326545715332
+          }
+        },
+        {
+          "type": "RIGHT_EYE_RIGHT_CORNER",
+          "position": {
+            "x": 593.6126098632812,
+            "y": 511.9821472167969,
+            "z": 87.42838287353516
+          }
+        },
+        {
+          "type": "RIGHT_EYE_BOTTOM_BOUNDARY",
+          "position": {
+            "x": 584.264404296875,
+            "y": 522.1864013671875,
+            "z": 67.22461700439453
+          }
+        },
+        {
+          "type": "RIGHT_EYE_LEFT_CORNER",
+          "position": {
+            "x": 564.6968383789062,
+            "y": 518.36328125,
+            "z": 52.66829299926758
+          }
+        },
+        {
+          "type": "LEFT_EYEBROW_UPPER_MIDPOINT",
+          "position": {
+            "x": 495.97015380859375,
+            "y": 502.43572998046875,
+            "z": -17.659595489501953
+          }
+        },
+        {
+          "type": "RIGHT_EYEBROW_UPPER_MIDPOINT",
+          "position": {
+            "x": 585.1044311523438,
+            "y": 474.72479248046875,
+            "z": 53.757171630859375
+          }
+        },
+        {
+          "type": "LEFT_EAR_TRAGION",
+          "position": {
+            "x": 374.7311706542969,
+            "y": 585.8096313476562,
+            "z": 64.82521057128906
+          }
+        },
+        {
+          "type": "RIGHT_EAR_TRAGION",
+          "position": {
+            "x": 567.1388549804688,
+            "y": 538.3707275390625,
+            "z": 213.76766967773438
+          }
+        },
+        {
+          "type": "FOREHEAD_GLABELLA",
+          "position": {
+            "x": 549.8626708984375,
+            "y": 495.7515869140625,
+            "z": 10.710769653320312
+          }
+        },
+        {
+          "type": "CHIN_GNATHION",
+          "position": {
+            "x": 555.8982543945312,
+            "y": 705.97998046875,
+            "z": 55.07040786743164
+          }
+        },
+        {
+          "type": "CHIN_LEFT_GONION",
+          "position": {
+            "x": 433.8731384277344,
+            "y": 669.6632690429688,
+            "z": 58.85771942138672
+          }
+        },
+        {
+          "type": "CHIN_RIGHT_GONION",
+          "position": {
+            "x": 569.2423095703125,
+            "y": 634.0780029296875,
+            "z": 180.8529510498047
+          }
+        },
+        {
+          "type": "LEFT_CHEEK_CENTER",
+          "position": {
+            "x": 487.26434326171875,
+            "y": 613.5130615234375,
+            "z": 5.865486145019531
+          }
+        },
+        {
+          "type": "RIGHT_CHEEK_CENTER",
+          "position": {
+            "x": 597.4899291992188,
+            "y": 581.0977783203125,
+            "z": 96.36576080322266
+          }
+        }
+      ],
+      "boundingPoly": {
+        "vertices": [
+          {
+            "x": 315,
+            "y": 331
+          },
+          {
+            "x": 664,
+            "y": 331
+          },
+          {
+            "x": 664,
+            "y": 737
+          },
+          {
+            "x": 315,
+            "y": 737
+          }
+        ],
+        "normalizedVertices": []
+      },
+      "fdBoundingPoly": {
+        "vertices": [
+          {
+            "x": 345,
+            "y": 410
+          },
+          {
+            "x": 630,
+            "y": 410
+          },
+          {
+            "x": 630,
+            "y": 694
+          },
+          {
+            "x": 345,
+            "y": 694
+          }
+        ],
+        "normalizedVertices": []
+      },
+      "rollAngle": -7.064578056335449,
+      "panAngle": 38.38738250732422,
+      "tiltAngle": -9.40896224975586,
+      "detectionConfidence": 0.984375,
+      "landmarkingConfidence": 0.2956520915031433,
+      "joyLikelihood": "VERY_UNLIKELY",
+      "sorrowLikelihood": "VERY_UNLIKELY",
+      "angerLikelihood": "VERY_UNLIKELY",
+      "surpriseLikelihood": "VERY_UNLIKELY",
+      "underExposedLikelihood": "VERY_UNLIKELY",
+      "blurredLikelihood": "VERY_UNLIKELY",
+      "headwearLikelihood": "VERY_UNLIKELY"
+    }
+  ],
+  "landmarkAnnotations": [],
+  "logoAnnotations": [],
+  "labelAnnotations": [
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/0bt9lr",
+      "locale": "",
+      "description": "Dog",
+      "score": 0.9955494403839111,
+      "confidence": 0,
+      "topicality": 0.7841017842292786,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/01lrl",
+      "locale": "",
+      "description": "Carnivores",
+      "score": 0.978190004825592,
+      "confidence": 0,
+      "topicality": 0.006983460858464241,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/019nj4",
+      "locale": "",
+      "description": "Smile",
+      "score": 0.8974571228027344,
+      "confidence": 0,
+      "topicality": 0.013973897323012352,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/0cnmr",
+      "locale": "",
+      "description": "Fur",
+      "score": 0.831466555595398,
+      "confidence": 0,
+      "topicality": 0.004591007716953754,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/016pp7",
+      "locale": "",
+      "description": "Happiness",
+      "score": 0.8279890418052673,
+      "confidence": 0,
+      "topicality": 0.01491296011954546,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/01z5f",
+      "locale": "",
+      "description": "Canidae",
+      "score": 0.7926565408706665,
+      "confidence": 0,
+      "topicality": 0.020806051790714264,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/05mqq3",
+      "locale": "",
+      "description": "Snout",
+      "score": 0.7136666774749756,
+      "confidence": 0,
+      "topicality": 0.004798999521881342,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/01p5rd",
+      "locale": "",
+      "description": "Bernese Mountain Dog",
+      "score": 0.6451864838600159,
+      "confidence": 0,
+      "topicality": 0.9368671178817749,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/0h8ks17",
+      "locale": "",
+      "description": "Pet Supply",
+      "score": 0.6107733845710754,
+      "confidence": 0,
+      "topicality": 0.00028931445558555424,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/02kc3x",
+      "locale": "",
+      "description": "Herding dog",
+      "score": 0.5675252676010132,
+      "confidence": 0,
+      "topicality": 0.024300459772348404,
+      "boundingPoly": null
+    },
+    {
+      "locations": [],
+      "properties": [],
+      "mid": "/m/048knlz",
+      "locale": "",
+      "description": "Love",
+      "score": 0.5041090846061707,
+      "confidence": 0,
+      "topicality": 0.0035717086866497993,
+      "boundingPoly": null
+    }
+  ],
+  "textAnnotations": [],
+  "localizedObjectAnnotations": [
+    {
+      "mid": "/m/0bt9lr",
+      "languageCode": "",
+      "name": "Dog",
+      "score": 0.7226392030715942,
+      "boundingPoly": {
+        "vertices": [],
+        "normalizedVertices": [
+          {
+            "x": 0.0830078125,
+            "y": 0.392578125
+          },
+          {
+            "x": 0.95703125,
+            "y": 0.392578125
+          },
+          {
+            "x": 0.95703125,
+            "y": 0.98828125
+          },
+          {
+            "x": 0.0830078125,
+            "y": 0.98828125
+          }
+        ]
+      }
+    },
+    {
+      "mid": "/m/09j2d",
+      "languageCode": "",
+      "name": "Clothing",
+      "score": 0.635922908782959,
+      "boundingPoly": {
+        "vertices": [],
+        "normalizedVertices": [
+          {
+            "x": 0.02490234375,
+            "y": 0.4140625
+          },
+          {
+            "x": 0.7109375,
+            "y": 0.4140625
+          },
+          {
+            "x": 0.7109375,
+            "y": 0.984375
+          },
+          {
+            "x": 0.02490234375,
+            "y": 0.984375
+          }
+        ]
+      }
+    },
+    {
+      "mid": "/m/03gx245",
+      "languageCode": "",
+      "name": "Top",
+      "score": 0.6337912082672119,
+      "boundingPoly": {
+        "vertices": [],
+        "normalizedVertices": [
+          {
+            "x": 0.018798828125,
+            "y": 0.41015625
+          },
+          {
+            "x": 0.52734375,
+            "y": 0.41015625
+          },
+          {
+            "x": 0.52734375,
+            "y": 0.83984375
+          },
+          {
+            "x": 0.018798828125,
+            "y": 0.83984375
+          }
+        ]
+      }
+    }
+  ],
+  "safeSearchAnnotation": {
+    "adult": "UNLIKELY",
+    "spoof": "POSSIBLE",
+    "medical": "VERY_UNLIKELY",
+    "violence": "UNLIKELY",
+    "racy": "UNLIKELY"
+  },
+  "imagePropertiesAnnotation": {
+    "dominantColors": {
+      "colors": [
+        {
+          "color": {
+            "red": 102,
+            "green": 126,
+            "blue": 87,
+            "alpha": null
+          },
+          "score": 0.11558200418949127,
+          "pixelFraction": 0.06932153552770615
+        },
+        {
+          "color": {
+            "red": 19,
+            "green": 18,
+            "blue": 15,
+            "alpha": null
+          },
+          "score": 0.07906474173069,
+          "pixelFraction": 0.14495575428009033
+        },
+        {
+          "color": {
+            "red": 65,
+            "green": 92,
+            "blue": 55,
+            "alpha": null
+          },
+          "score": 0.10035724192857742,
+          "pixelFraction": 0.056106194853782654
+        },
+        {
+          "color": {
+            "red": 138,
+            "green": 161,
+            "blue": 122,
+            "alpha": null
+          },
+          "score": 0.08345463871955872,
+          "pixelFraction": 0.05085545778274536
+        },
+        {
+          "color": {
+            "red": 34,
+            "green": 59,
+            "blue": 27,
+            "alpha": null
+          },
+          "score": 0.058430302888154984,
+          "pixelFraction": 0.032271385192871094
+        },
+        {
+          "color": {
+            "red": 51,
+            "green": 52,
+            "blue": 48,
+            "alpha": null
+          },
+          "score": 0.04011382535099983,
+          "pixelFraction": 0.0644247755408287
+        },
+        {
+          "color": {
+            "red": 163,
+            "green": 155,
+            "blue": 131,
+            "alpha": null
+          },
+          "score": 0.0362943559885025,
+          "pixelFraction": 0.0339822992682457
+        },
+        {
+          "color": {
+            "red": 63,
+            "green": 49,
+            "blue": 32,
+            "alpha": null
+          },
+          "score": 0.03522296994924545,
+          "pixelFraction": 0.03150442615151405
+        },
+        {
+          "color": {
+            "red": 155,
+            "green": 157,
+            "blue": 149,
+            "alpha": null
+          },
+          "score": 0.03427831456065178,
+          "pixelFraction": 0.05197640135884285
+        },
+        {
+          "color": {
+            "red": 130,
+            "green": 119,
+            "blue": 96,
+            "alpha": null
+          },
+          "score": 0.03298298269510269,
+          "pixelFraction": 0.03203539922833443
+        }
+      ]
+    }
+  },
+  "error": null,
+  "cropHintsAnnotation": {
+    "cropHints": [
+      {
+        "boundingPoly": {
+          "vertices": [
+            {
+              "x": 0,
+              "y": 414
+            },
+            {
+              "x": 1079,
+              "y": 414
+            },
+            {
+              "x": 1079,
+              "y": 1025
+            },
+            {
+              "x": 0,
+              "y": 1025
+            }
+          ],
+          "normalizedVertices": []
+        },
+        "confidence": 0.53125,
+        "importanceFraction": 0.9039548635482788
+      }
+    ]
+  },
+  "fullTextAnnotation": null,
+  "webDetection": {
+    "webEntities": [
+      {
+        "entityId": "/m/01p5rd",
+        "score": 1.6039156913757324,
+        "description": "Bernese Mountain Dog"
+      },
+      {
+        "entityId": "/m/02kf24",
+        "score": 1.3446670770645142,
+        "description": "Australian Shepherd"
+      },
+      {
+        "entityId": "/m/01qn1p",
+        "score": 1.0405967235565186,
+        "description": "English Shepherd"
+      },
+      {
+        "entityId": "/m/06k88g",
+        "score": 1.0086034536361694,
+        "description": "Hovawart"
+      },
+      {
+        "entityId": "/m/02xp9c",
+        "score": 0.9834888577461243,
+        "description": "Miniature American Shepherd"
+      },
+      {
+        "entityId": "/m/0bwm8q",
+        "score": 0.7150999903678894,
+        "description": "Dog Crate"
+      },
+      {
+        "entityId": "/m/03yl64",
+        "score": 0.5802572965621948,
+        "description": "Companion dog"
+      },
+      {
+        "entityId": "/m/01jbnd",
+        "score": 0.5794000029563904,
+        "description": "Dog Food"
+      },
+      {
+        "entityId": "/m/09rgrw",
+        "score": 0.5405421257019043,
+        "description": "Ancient dog breeds"
+      },
+      {
+        "entityId": "/m/0h8n6f9",
+        "score": 0.5364999771118164,
+        "description": "Dog Bed"
+      }
+    ],
+    "fullMatchingImages": [
+      {
+        "url": "https://images.pexels.com/photos/28948918/pexels-photo-28948918.jpeg?cs=srgb&dl=pexels-impact-dog-crates-1789722873-28948918.jpg&fm=jpg",
+        "score": 0
+      },
+      {
+        "url": "https://vippetsmart.com/wp-content/uploads/2024/10/pexels-photo-28948918-28948918-scaled.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://purrsandbarks.com/wp-content/uploads/impact-dog-crates-high-anxiety-model-polish.jpeg",
+        "score": 0
+      },
+      {
+        "url": "https://miro.medium.com/v2/resize:fit:1400/1*YvKxh95LlkIGoJ-oHGQ9VQ.jpeg",
+        "score": 0
+      },
+      {
+        "url": "https://elevatepet.com/cdn/shop/articles/microbiome-dogs.jpg?crop=center&height=1706&v=1731098936&width=1280",
+        "score": 0
+      },
+      {
+        "url": "https://www.seedshubpets.com/cdn/shop/files/20241103-170202_1.jpg?v=1730624805&width=1200",
+        "score": 0
+      },
+      {
+        "url": "https://miro.medium.com/v2/resize:fit:1200/1*YvKxh95LlkIGoJ-oHGQ9VQ.jpeg",
+        "score": 0
+      },
+      {
+        "url": "https://blog.boon.so/wp-content/uploads/2024/10/pet-accessories.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://g.denik.cz/1/8a/pexels-impact-dog-crates-1789722873-28948918.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://blog.boon.so/wp-content/uploads/2024/10/pet-accessories-768x1024.jpg",
+        "score": 0
+      }
+    ],
+    "partialMatchingImages": [
+      {
+        "url": "https://images.pexels.com/photos/28948918/pexels-photo-28948918/free-photo-of-brunette-woman-kissing-bernese-mountain-dog-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "score": 0
+      },
+      {
+        "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=122198257742069996",
+        "score": 0
+      },
+      {
+        "url": "https://elevatepet.com/cdn/shop/articles/microbiome-dogs.jpg?crop=center&height=1535&v=1731098936&width=1280",
+        "score": 0
+      },
+      {
+        "url": "https://static.langimg.com/photo/114617665/114617665.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://elevatepet.com/cdn/shop/articles/microbiome-dogs.jpg?crop=center&height=1408&v=1731098936&width=1280",
+        "score": 0
+      },
+      {
+        "url": "https://www.oggusto.com/_next/image?url=https%3A%2F%2Fwp.oggusto.com%2Fwp-content%2Fuploads%2F2024%2F09%2Fpet-768x614.jpg&w=3840&q=75",
+        "score": 0
+      },
+      {
+        "url": "https://www.oggusto.com/_next/image?url=https%3A%2F%2Feduzsofsfpv.exactdn.com%2Fwp-content%2Fuploads%2F2024%2F09%2Fpet.jpg%3Fstrip%3Dall%26lossy%3D1%26quality%3D92%26webp%3D92%26avif%3D80%26ssl%3D1&w=3840&q=75",
+        "score": 0
+      },
+      {
+        "url": "https://wp.oggusto.com/wp-content/uploads/2024/09/pet-768x614.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://wp.oggusto.com/wp-content/uploads/2024/09/pet.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://www.istream.sk/wp-content/uploads/2024/11/h.jpg",
+        "score": 0
+      }
+    ],
+    "pagesWithMatchingImages": [
+      {
+        "fullMatchingImages": [],
+        "partialMatchingImages": [
+          {
+            "url": "https://elevatepet.com/cdn/shop/articles/microbiome-dogs.jpg?crop=center&height=1535&v=1731098936&width=1280",
+            "score": 0
+          }
+        ],
+        "url": "https://elevatepet.com/",
+        "score": 0,
+        "pageTitle": "Elevate Pet Provisions: Air-Dried Dog Food | Human Grade Dog Food"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://elevatepet.com/cdn/shop/articles/microbiome-dogs.jpg?crop=center&height=1706&v=1731098936&width=1280",
+            "score": 0
+          }
+        ],
+        "partialMatchingImages": [],
+        "url": "https://elevatepet.com/blogs/news/the-role-of-diet-in-supporting-your-dog-s-healthy-microbiome",
+        "score": 0,
+        "pageTitle": "The Role of Diet In Supporting Your Dog's Healthy Microbiome"
+      },
+      {
+        "fullMatchingImages": [],
+        "partialMatchingImages": [
+          {
+            "url": "https://elevatepet.com/cdn/shop/articles/microbiome-dogs.jpg?crop=center&height=1408&v=1731098936&width=1280",
+            "score": 0
+          }
+        ],
+        "url": "https://elevatepet.com/pages/what-is-air-dried-dog-food",
+        "score": 0,
+        "pageTitle": "Benefits of Air-Dried Dog Food | Human Grade Dog Food"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://images.pexels.com/photos/28948918/pexels-photo-28948918/free-photo-of-brunette-woman-kissing-bernese-mountain-dog-outdoors.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "score": 0
+          }
+        ],
+        "partialMatchingImages": [],
+        "url": "https://www.pexels.com/search/dog%20bed/",
+        "score": 0,
+        "pageTitle": "Free Dog Bed Photos - Pexels"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://images.pexels.com/photos/28948918/pexels-photo-28948918/free-photo-of-brunette-woman-kissing-bernese-mountain-dog-outdoors.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "score": 0
+          }
+        ],
+        "partialMatchingImages": [],
+        "url": "https://www.pexels.com/search/bernese%20mountain%20dog/",
+        "score": 0,
+        "pageTitle": "Free Bernese Mountain Dog Photos - Pexels"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://images.pexels.com/photos/28948918/pexels-photo-28948918/free-photo-of-brunette-woman-kissing-bernese-mountain-dog-outdoors.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "score": 0
+          }
+        ],
+        "partialMatchingImages": [],
+        "url": "https://www.pexels.com/search/dog%20in%20a%20garden/",
+        "score": 0,
+        "pageTitle": "Free Dog In A Garden Photos - Pexels"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://images.pexels.com/photos/28948918/pexels-photo-28948918/free-photo-of-brunette-woman-kissing-bernese-mountain-dog-outdoors.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "score": 0
+          }
+        ],
+        "partialMatchingImages": [],
+        "url": "https://www.pexels.com/search/dog%20crate",
+        "score": 0,
+        "pageTitle": "Free Dog Crate Photos - Pexels"
+      },
+      {
+        "fullMatchingImages": [],
+        "partialMatchingImages": [
+          {
+            "url": "https://www.territory-influence.com/wp-content/uploads/2024/10/Website-BlogPost-Image-24.png",
+            "score": 0
+          }
+        ],
+        "url": "https://www.territory-influence.com/the-rise-of-pet-influencers-trends-tips-and-cases/",
+        "score": 0,
+        "pageTitle": "The Rise Of Pet Influencers: Trends, Tips And Cases"
+      },
+      {
+        "fullMatchingImages": [],
+        "partialMatchingImages": [
+          {
+            "url": "https://purrsandbarks.com/wp-content/uploads/pexels-photo-28948930.jpeg",
+            "score": 0
+          }
+        ],
+        "url": "https://purrsandbarks.com/product/fuji-line/",
+        "score": 0,
+        "pageTitle": "Fuji Line - Purrs"
+      },
+      {
+        "fullMatchingImages": [
+          {
+            "url": "https://vippetsmart.com/wp-content/uploads/2024/10/pexels-photo-28948918-28948918-scaled.jpg",
+            "score": 0
+          }
+        ],
+        "partialMatchingImages": [],
+        "url": "https://vippetsmart.com/blog/",
+        "score": 0,
+        "pageTitle": "Blog - VIP Pets Mart"
+      }
+    ],
+    "visuallySimilarImages": [
+      {
+        "url": "https://media.licdn.com/dms/image/v2/D4E10AQFhR6OSs97Hcg/image-shrink_800/image-shrink_800/0/1729555145697?e=2147483647&v=beta&t=ueBRM9vvH4DaoBBI3dbDgfsWTt_Y3LFkQIWO_k4lMmY",
+        "score": 0
+      },
+      {
+        "url": "https://www.wellnesspetfood.com/wp-content/uploads/2024/01/july-bg-1024x794-1-1.jpeg",
+        "score": 0
+      },
+      {
+        "url": "https://www.relationshipswa.org.au/relationshipswa/media/images/internal/hotbox-480x270/hotbox-woman-dog-43.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://jardinage.lemonde.fr/images/dossiers/2023-11/mini/chien-bon-pour-sante-115808-650-325.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://static.spektrum.de/fm/912/f640x360/junge-Frau-Hund-iStock-511029566_eclipse_images.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://www.unisalute.it/assets/contents/images/home-page/hero/img_hero-animata_versione_invernale/Rectangle_12170.webp",
+        "score": 0
+      },
+      {
+        "url": "https://www.vgh.de/export/sites/vgh/_resources/bilder/privat/versicherungen/haftpflicht-und-rechtsschutz/.scaledImages/vgh-buehne-tierversicherungen_tiny.jpg",
+        "score": 0
+      },
+      {
+        "url": "https://pbs.twimg.com/card_img/1864397020930170880/epyFgcMP?format=jpg&name=medium",
+        "score": 0
+      },
+      {
+        "url": "https://www.nationalforests.org/assets/profile-photos/_800x800_fit_center-center_80_none/17442701/Lauren-Larsen_photo.jpeg",
+        "score": 0
+      },
+      {
+        "url": "https://www.shutterstock.com/image-photo/happy-asian-woman-playing-dog-600w-2449552485.jpg",
+        "score": 0
+      }
+    ],
+    "bestGuessLabels": [
+      {
+        "label": "Dog",
+        "languageCode": ""
+      }
+    ]
+  },
+  "productSearchResults": null,
+  "context": null
+}
